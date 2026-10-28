@@ -1,0 +1,14 @@
+{
+  "mod_id": "mece",
+  "version": "0.0.1",
+  "mod_page_url": "",
+  "dll": "MECE.dll",
+  "authors": [],
+  "icon": "textures/mece/icon",
+  "mappings": "",
+  "dependencies": {
+    "quintessential_core": "[0.8.0,)",
+    "quintessential_data": "[0.8.0,)"
+  },
+  "conflicts": []
+}

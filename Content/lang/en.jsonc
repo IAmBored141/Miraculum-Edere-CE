@@ -1,0 +1,12 @@
+{
+  "boreds_box": {
+    "": "Bored's Box",
+    "description": "A mod that doesn't do much.",
+    "atoms": {
+      "test_atom": {
+        "": "Test Atom",
+        "elemental": "Elemental Test Atom"
+      }
+    }
+  }
+}
