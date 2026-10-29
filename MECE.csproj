@@ -15,10 +15,22 @@
 	</PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="ComplicatedElementsCE">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\ComplicatedElementsCE.dll</HintPath>
+    </Reference>
     <Reference Include="DevLightning">
       <HintPath>$(OpusDir)\DevLightning.dll</HintPath>
       <Private>false</Private>
       <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="Extransmutations2">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Extransmutations2.dll</HintPath>
+    </Reference>
+    <Reference Include="Fanolytics">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Fanolytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Lithos">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Lithos.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>$(OpusDir)\Mono.Cecil.dll</HintPath>
@@ -31,6 +43,24 @@
     <Reference Include="MonoMod.Utils">
       <HintPath>$(OpusDir)\MonoMod.Utils.dll</HintPath>
       <CopyLocal>False</CopyLocal>
+    </Reference>
+    <Reference Include="Neuvolics">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Neuvolics.dll</HintPath>
+    </Reference>
+    <Reference Include="Origami">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Origami.dll</HintPath>
+    </Reference>
+    <Reference Include="PrimaMateria">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\PrimaMateria.dll</HintPath>
+    </Reference>
+    <Reference Include="Sennmetals">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\Sennmetals.dll</HintPath>
+    </Reference>
+    <Reference Include="UncommonPrimes">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\UncommonPrimes.dll</HintPath>
+    </Reference>
+    <Reference Include="UnstableElements">
+      <HintPath>TestEnvironment\modded\Mods\raw_dll\UnstableElements.dll</HintPath>
     </Reference>
   </ItemGroup>
 

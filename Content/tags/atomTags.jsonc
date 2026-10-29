@@ -1,0 +1,34 @@
+{
+    "om:$successor_proj": {
+        "mece:aluminium": "mece:indium",
+        "mece:indium": "mece:ferrum",
+        "mece:ferrum": "mece:cerium",
+        "mece:cerium": "mece:neodynium",
+        "mece:neodynium": "mece:titanium"
+    },
+    "om:$successor_purif": {
+        "mece:aluminium": "om:lead",
+        "mece:indium": "mece:ferrum",
+        "mece:ferrum": "mece:cerium",
+        "mece:cerium": "mece:neodynium",
+        "mece:neodynium": "mece:titanium"
+    },
+    "om:$predecessor": {
+        "mece:indium": "mece:aluminium",
+        "mece:ferrum": "mece:indium",
+        "mece:cerium": "mece:ferrum",
+        "mece:neodynium": "mece:cerium",
+        "mece:titanium": "mece:neodynium"
+    },
+    "om:proliferatable": [
+        "mece:aluminium",
+        "mece:indium",
+        "mece:ferrum",
+        "mece:cerium",
+        "mece:neodynium",
+        "mece:titanium"
+    ],
+    "om:triplexable": [
+        "mece:ignis"
+    ]
+}

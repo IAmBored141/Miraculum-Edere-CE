@@ -8,7 +8,8 @@
   "mappings": "",
   "dependencies": {
     "quintessential_core": "[0.8.0,)",
-    "quintessential_data": "[0.8.0,)"
+    "quintessential_data": "[0.8.0,)",
+    "lithos": "[0.0.3,)"
   },
   "conflicts": []
 }

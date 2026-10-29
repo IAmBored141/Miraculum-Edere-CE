@@ -14,7 +14,7 @@ internal class Atoms
     public static AtomType Aluminium, Cerium, Ferrum, Indium, Neodynium, Titanium;
     // HEAVY CARDINALS
     public static AtomType Aqua, Caelum, Ignis, Terra, Zenithite;
-    // CURIOUSITY - CARDINALS
+    // CURIOUSITY - CARDINALSb
     public static AtomType Humita, Temperum;
     // QUIX
     public static AtomType Quicklead, Quicktin, Quickiron, Quickgold;
@@ -267,5 +267,45 @@ internal class Atoms
         MECE.Instance.AddAtomType(Titanium, "titanium");
     }
 
-
+    public static AtomType Plutonium, Plutonium1, Plutonium2;
+    public static void AddPlutoniumSpecifically()
+    {
+        Plutonium = new()
+        {
+            shadow = Assets.textures.atoms.shadow,
+            symbol = AssetLoaderHelper.LoadTexture("textures/mece/atoms/placeholder_symbol"),
+            isMetallic = true,
+            metallicTextures = new()
+            {
+                lightramp = AssetLoaderHelper.LoadTexture("textures/mece/atoms/SOHM/plutonium_lightramp"),
+                diffuse = Assets.textures.atoms.salt_diffuse,
+                rimlight = Assets.textures.atoms.iron_rimlight
+            }
+        };
+        Plutonium1 = new()
+        {
+            shadow = Assets.textures.atoms.shadow,
+            symbol = AssetLoaderHelper.LoadTexture("textures/mece/atoms/placeholder_symbol"),
+            isMetallic = true,
+            metallicTextures = new()
+            {
+                lightramp = AssetLoaderHelper.LoadTexture("textures/mece/atoms/SOHM/plutonium_lightramp"),
+                diffuse = Assets.textures.atoms.salt_diffuse,
+                rimlight = Assets.textures.atoms.iron_rimlight
+            }
+        };
+        Plutonium2 = new()
+        {
+            shadow = Assets.textures.atoms.shadow,
+            symbol = AssetLoaderHelper.LoadTexture("textures/mece/atoms/placeholder_symbol"),
+            isMetallic = true,
+            metallicTextures = new()
+            {
+                lightramp = AssetLoaderHelper.LoadTexture("textures/mece/atoms/SOHM/plutonium_lightramp"),
+                diffuse = Assets.textures.atoms.salt_diffuse,
+                rimlight = Assets.textures.atoms.iron_rimlight
+            }
+        };
+        MECE.Instance.AddAtomType(Plutonium, "plutonium");
+    }
 }
